@@ -1,0 +1,54 @@
+#topCover{
+    height: 550px; width: 2190px;
+}
+body{
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+}
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+.half-width img{
+width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: rgb(17, 155, 102);
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(4, 39, 32), rgb(13, 184, 161));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: rgb(29, 25, 25);
+}
+.middle-part{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+h3{
+    font-size: 50px;
+}
+section .middle-part{
+    border: 5cm;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
